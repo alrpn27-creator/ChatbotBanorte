@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "asistente-banorte": {
+      "command": "python",
+      "args": ["servidor_mcp_banorte.py"],
+      "env": {
+        "OLLAMA_HOST": "localhost:11434"
+      }
+    }
+  }
+}
