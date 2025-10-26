@@ -1,7 +1,4 @@
-# Chatbot Financiero Banorte
-Asistente financiero inteligente que analiza transacciones bancarias usando IA local con Ollama
-
-# ChatBot Financiero con IA
+# ChatBot Financiero Banorte
 
 > Asistente financiero inteligente que analiza transacciones bancarias usando IA local con Ollama
 
@@ -22,7 +19,7 @@ Asistente financiero inteligente que analiza transacciones bancarias usando IA l
 - [Soporte y Ayuda](#-soporte-y-ayuda)
 - [Equipo](#-equipo)
 
-## 🎯 ¿Qué hace este proyecto?
+## ¿Qué hace este proyecto?
 
 Este proyecto es un **chatbot financiero inteligente** que permite a los usuarios:
 
@@ -47,7 +44,7 @@ Muchas personas tienen dificultades para:
 
 Este chatbot ofrece:
 - ✅ **Análisis local**: Tus datos financieros nunca salen de tu computadora
-- ✅ **IA conversacional**: Pregunta en lenguaje natural, no necesitas saber SQL o programación
+- ✅ **IA conversacional**: Pregunta en lenguaje natural, no necesitas saber programación
 - ✅ **Respuestas instantáneas**: Obtén análisis financieros en segundos
 - ✅ **Privacidad total**: Sin necesidad de conexión a internet para el análisis
 - ✅ **Interfaz amigable**: GUI simple y fácil de usar
@@ -62,14 +59,16 @@ Este chatbot ofrece:
 
 ### Sistema de Autenticación
 - Login por ID de usuario
-- Modo de prueba sin autenticación
-- Gestión de múltiples usuarios
+- Modo de prueba sin autenticación****
+- Gestión de múltiples usuarios****
 
 ### Análisis Financiero
 - **Resumen financiero completo**: Ingresos, gastos y balance neto
 - **Gastos por categoría**: Desglose detallado de gastos
 - **Comparación ingresos vs gastos**: Análisis de proporción y tendencias
 - **Transacciones recientes**: Historial ordenado cronológicamente
+- **Análisis categorico**:
+- **Tendencias**:
 
 ### Chat con IA
 - Consultas en lenguaje natural usando Ollama
@@ -83,7 +82,7 @@ Este chatbot ofrece:
 - Área de chat con scroll
 - Botones de acceso rápido para funciones comunes
 
-## 🏗️ Arquitectura del Sistema
+## 🏗️ Arquitectura del Sistema *****
 
 ```
 ┌─────────────────────────────────────────┐
@@ -126,7 +125,7 @@ Este chatbot ofrece:
 #### Backend (Python)
 - **AuthenticationManager**: Gestión de usuarios y sesiones
 - **DataProcessor**: Análisis de transacciones financieras
-- **MessageHandler**: Procesamiento de mensajes con threading
+- **MessageHandler**: Procesamiento de mensajes con threading*******
 - **OllamaConnector**: Comunicación con API de Ollama
 
 #### Datos
@@ -142,9 +141,9 @@ Este chatbot ofrece:
   }
   ```
 
-## 📦 Requisitos Previos
+## 📦 Requisitos Previos *****
 
-### Software Necesario
+### Software Necesario ******
 
 1. **Python 3.8 o superior**
    - Descarga: [python.org](https://www.python.org/downloads/)
@@ -161,7 +160,7 @@ Este chatbot ofrece:
    - threading (incluido con Python)
    - datetime (incluido con Python)
 
-### Datos Requeridos
+### Datos Requeridos ***************
 
 - Archivo `Base1.json` con datos de transacciones financieras
 
@@ -263,7 +262,7 @@ El servidor estará disponible en `http://localhost:11434`
 
 ### Funcionalidades Disponibles
 
-#### 1. Botones de Acceso Rápido
+#### 1. Botones de Acceso Rápido *************
 
 | Botón | Descripción |
 |-------|-------------|
@@ -316,7 +315,7 @@ El sistema adapta sus respuestas según:
 3. Solicitar: "Dame recomendaciones para aumentar mis ahorros"
 ```
 
-## 🆘 Soporte y Ayuda
+## 🆘 Soporte y Ayuda *************
 
 ### Problemas Comunes
 
@@ -340,7 +339,7 @@ El sistema adapta sus respuestas según:
 
 ### Configuración Avanzada
 
-#### Cambiar el Modelo de IA
+#### Cambiar el Modelo de IA *****************
 
 En el archivo Python, línea ~174, modifica:
 ```python
@@ -365,7 +364,7 @@ response = requests.post(self.ollama_url, json=payload, timeout=30)
 # Aumenta timeout si tu sistema es lento: timeout=60
 ```
 
-### Obtener Ayuda
+### Obtener Ayuda ***************
 
 Si tienes problemas:
 
@@ -378,13 +377,13 @@ Si tienes problemas:
    - Versión de Python y Ollama
    - Sistema operativo
 
-### Recursos Útiles
+### Recursos Útiles *******************************
 
 - [Documentación de Tkinter](https://docs.python.org/3/library/tkinter.html)
 - [Guía de Ollama](https://ollama.ai/docs)
 - [Python Requests](https://requests.readthedocs.io/)
 
-## 👥 Equipo
+## 👥 Equipo **********************
 
 ### Desarrolladores
 
@@ -392,21 +391,21 @@ Si tienes problemas:
 - **[Nombre 2]** - Diseño de UI/UX - [GitHub](https://github.com/usuario2)
 - **[Nombre 3]** - Integración de IA - [GitHub](https://github.com/usuario3)
 
-### Contribuciones
+### Contribuciones ********************
 
 Este proyecto fue creado para [Nombre del Hackathon] - [Fecha]
 
-### Contacto
+### Contacto *******************
 
 - **Email**: equipo@proyecto.com
 - **Discord**: [Servidor del proyecto]
 - **GitHub**: [Repositorio del proyecto]
 
-## 📝 Licencia
+## 📝 Licencia *******************
 
 Este proyecto fue desarrollado con fines educativos para el hackathon [Nombre].
 
-## 🎉 Agradecimientos
+## 🎉 Agradecimientos ******************************
 
 - Anthropic por proporcionar inspiración en chatbots conversacionales
 - Comunidad de Ollama por el excelente soporte de IA local
