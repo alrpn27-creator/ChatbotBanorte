@@ -30,7 +30,7 @@ Este proyecto es un **chatbot financiero inteligente** que permite a los usuario
 
 El sistema utiliza **Ollama** (IA local) para procesar consultas y proporcionar respuestas contextualizadas sobre datos financieros almacenados en formato JSON.
 
-## 💡 ¿Por qué es útil?
+## ¿Por qué es útil?
 
 ### Problema que resuelve
 
@@ -55,7 +55,7 @@ Este chatbot ofrece:
 - **Para empresas**: Sistema de análisis financiero que puede desplegarse localmente
 - **Para desarrolladores**: Base extensible para agregar más funcionalidades de IA financiera
 
-## ✨ Características Principales
+## Características Principales
 
 ### Sistema de Autenticación
 - Login por ID de usuario
@@ -82,7 +82,7 @@ Este chatbot ofrece:
 - Área de chat con scroll
 - Botones de acceso rápido para funciones comunes
 
-## 🏗️ Arquitectura del Sistema *****
+## Arquitectura del Sistema *****
 
 ```
 ┌─────────────────────────────────────────┐
@@ -164,7 +164,7 @@ Este chatbot ofrece:
 
 - Archivo `Base1.json` con datos de transacciones financieras
 
-## 🚀 Instalación y Configuración
+## Instalación y Configuración
 
 ### Paso 1: Clonar o Descargar el Proyecto
 
@@ -229,7 +229,7 @@ ollama serve
 
 El servidor estará disponible en `http://localhost:11434`
 
-## ▶️ Cómo Empezar
+## Cómo Empezar
 
 ### Ejecución del Programa
 
@@ -258,7 +258,7 @@ El servidor estará disponible en `http://localhost:11434`
    - "Muéstrame un resumen de mis finanzas"
    - "¿Tengo más ingresos o gastos?"
 
-## 📖 Uso del Sistema
+## Uso del Sistema
 
 ### Funcionalidades Disponibles
 
